@@ -13,6 +13,7 @@ There are four input files: init-no-dp.txt, input-no-dp.txt, init-dp.txt and inp
 - The output-no-dp.txt and output-dp.txt files contains the output of the program.
 
 ### **<ins>FUNCTIONS</ins>**
+
 **<ins>read_file()</ins>**
 - Reads the input files and call the functions that initializes the PM and translates the virtual address to physical address.
 
@@ -22,18 +23,8 @@ There are four input files: init-no-dp.txt, input-no-dp.txt, init-dp.txt and inp
 **<ins>initialize2(in2)</ins>**
 - Initializes the PM for line 1 in init text file.
 
-**<ins>RELEASE</ins>**
-- **release(r,k)** : Releases k units of resource r 
-
-**<ins>TIMEOUT</ins>**
-- **timeout()** : Moves the current process to the end of the reading list and call the scheduler  
-
-**<ins>SCHEDULER</ins>**
-- **scheduler()** : To perform context switch and schedule according to the priority 
-
-**<ins>MANAGE INPUT AND OUTPUT</ins>**
-- **write_in_file()** : Writes the output in the output file 
-- **menu()** : Calls the appropriate function according to the command in the input file  
+**<ins>calculate(VA_init):</ins>**
+- Derives s,p,w,pw; translates the virtual address to physical address and writes the physical address to the ouput file.  
 
 ### **<ins>AUTHOR</ins>**
 VAANYA GUPTA
