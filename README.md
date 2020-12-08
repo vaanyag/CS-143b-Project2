@@ -13,18 +13,14 @@ There are four input files: init-no-dp.txt, input-no-dp.txt, init-dp.txt and inp
 - The output-no-dp.txt and output-dp.txt files contains the output of the program.
 
 ### **<ins>FUNCTIONS</ins>**
-**<ins>CREATE</ins>**
-- **create_init()** : Initializes: PCB[16], RCB[4] and Ready List RL with priority levels. It also creates PCB[0] (with priority = 0) 
-- **create(p)** : Creates a new process with priority 'p' 
+**<ins>read_file()</ins>**
+- Reads the input files and call the functions that initializes the PM and translates the virtual address to physical address.
 
-**<ins>DESTROY</ins>**
-- **destroy(j)** : Destroys the process j if it exists along with its children and grandchildren (if any) </br>
-- **check_destroy(j)**[<ins>Helper function of destroy()</ins>] : It checks if j is current running process or is one of the decendents of current running process and then calls the destroy function </br>
-- **print_destroy_count()**[<ins>Helper function of destroy()</ins>] : Outputs the total number of processes destroyed </br>
-- **remove_parent()**[<ins>Helper function of destroy()</ins>] : Remove j from the children list of its parent process when destroy is called </br>
-    
-**<ins>REQUEST</ins>**
-- **request(r,k)** : Request k units of r resource 
+**<ins>initialize(in1)</ins>**
+- Initializes the PM for line 1 in init text file.
+
+**<ins>initialize2(in2)</ins>**
+- Initializes the PM for line 1 in init text file.
 
 **<ins>RELEASE</ins>**
 - **release(r,k)** : Releases k units of resource r 
