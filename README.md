@@ -5,11 +5,11 @@ A virtual memory program written in python language. It is a virtual memory(VM) 
 
 ### **<ins>HOW TO RUN THE PROGRAM</ins>**
 There are four input files: init-no-dp.txt, input-no-dp.txt, init-dp.txt and input-dp.txt file from where the program reads the commands line by line and prints the output to output-no-dp.txt for no dp input files and to ouput-dp.txt for dp input files. </br>
-- The four input files, project2.py should be in the same directory. </br>
+- The four input files and Project2.py should be in the same directory. </br>
 - To run the program: </br>
-    - Make sure that the current directory is the same as the directory of four input files and project2.py</br>
-    - Enter the command **<ins>python project2.py</ins>** in the terminal [if the current python version is set to 3] otherwise use **<ins>python3 project2.py</ins>**</br>
-    - After the command is entered, output-no-dp.txt and output-dp.txt file is generated automatically and saved in the same directory as the four input files and project2.py</br>
+    - Make sure that the current directory is the same as the directory of four input files and Project2.py</br>
+    - Enter the command **<ins>python Project2.py</ins>** in the terminal [if the current python version is set to 3] otherwise use **<ins>python3 Project2.py</ins>**</br>
+    - After the command is entered, output-no-dp.txt and output-dp.txt file is generated automatically and saved in the same directory as the four input files and Project2.py</br>
 - The output-no-dp.txt and output-dp.txt files contains the output of the program.
 
 ### **<ins>FUNCTIONS</ins>**
