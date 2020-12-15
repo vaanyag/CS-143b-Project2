@@ -83,7 +83,7 @@ def calculate(VA_init):
 
             b = abs(PM[2*s + 1])
             start = frame * 512
-            for i in range(0,511):
+            for i in range(0,512):
                 PM[start + i] = Disk[b][i]
 
             # Updates ST entry
@@ -99,7 +99,7 @@ def calculate(VA_init):
 
             b = abs(PM[PM[2*s + 1]*512 + p])
             start = frame * 512
-            for i in range(0,511):
+            for i in range(0,512):
                 PM[start + i] = Disk[b][i]
 
             # Updates PT entry

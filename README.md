@@ -21,7 +21,7 @@ There are four input files: init-no-dp.txt, input-no-dp.txt, init-dp.txt and inp
 - Initializes the PM for line 1 in init text file.
 
 **<ins>initialize2(in2)</ins>**
-- Initializes the PM for line 1 in init text file.
+- Initializes the PM for line 2 in init text file.
 
 **<ins>calculate(VA_init):</ins>**
 - Derives s,p,w,pw; translates the virtual address to physical address and writes the physical address to the ouput file.  
